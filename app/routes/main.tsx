@@ -1,6 +1,4 @@
 import type { MetaFunction } from "@remix-run/node";
-import Nav from "~/layouts/nav/Nav";
-import "../index.css";
 
 export const meta: MetaFunction = () => {
   return [
@@ -9,11 +7,10 @@ export const meta: MetaFunction = () => {
   ];
 };
 
-export default function Index() {
+export default function Main() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <Nav />
-      App
+      Main
     </div>
   );
 }

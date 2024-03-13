@@ -1,0 +1,36 @@
+nav{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  background-color: #ffe6d7;
+  img{
+    max-width: 90px;
+  }
+
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2.5rem;
+    list-style: none;
+  }
+
+  a{
+    color: #1e4646;
+    text-decoration: none;
+  }
+
+  div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 2.5rem;
+    a:first-child{
+      flex: 1;
+    }
+
+  }
+
+}
+
+

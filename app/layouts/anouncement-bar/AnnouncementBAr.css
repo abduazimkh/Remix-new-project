@@ -1,0 +1,21 @@
+.announcement-bar{
+  background-color: #64a096;
+  color: #fff;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  small:first-child{
+    border-bottom: 1px solid #fff;
+  }
+  small{
+    line-height: 10px;
+  }
+}
