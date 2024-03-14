@@ -1,10 +1,10 @@
 import type { MetaFunction } from "@remix-run/node";
-import { Link } from "@remix-run/react";
+// import { Link } from "@remix-run/react";
 import "./Nav.css";
-import Container from "~/utils/Utils";
+import { Container, LinkBtn } from "~/utils/Utils";
 import AnnouncementBar from "../anouncement-bar/AnnouncementBar";
 import logo from "../../assets/images/staay-logo.png";
-
+import { Link } from "@remix-run/react";
 
 export const meta: MetaFunction = () => {
   return [
@@ -33,7 +33,11 @@ export default function Nav() {
 
           <div>
             <Link to="/">Cart(0)</Link>
-            <Link to="/">Start Free Trial</Link>
+            {/* <Link to="/">Start Free Trial</Link> */}
+            <LinkBtn
+              link="/"
+              text="Shop now"
+            />
           </div>
         </nav>
       </Container>

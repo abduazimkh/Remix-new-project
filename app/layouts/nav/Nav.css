@@ -34,3 +34,23 @@ nav{
 }
 
 
+
+@media only screen and (max-width: 1010px) {
+  nav{
+    ul{
+      display: none;
+    }
+  
+    a{
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav{
+    .link-btn{
+      display: none;
+    }
+  }
+}

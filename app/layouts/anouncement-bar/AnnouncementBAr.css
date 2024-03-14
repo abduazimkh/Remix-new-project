@@ -19,3 +19,19 @@
     line-height: 10px;
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .announcement-bar{
+    padding: 10px;
+    a{
+      font-size: 10px;
+    }
+    small:first-child{
+      border-bottom: 1px solid #fff;
+    }
+    small{
+      line-height: 10px;
+    }
+  }
+}
