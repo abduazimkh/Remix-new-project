@@ -1,8 +1,22 @@
 
-
-
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.shop{
+  background-color: #1e4646;
+  padding: 3rem;
+  font-size: 2rem;
+  line-height: 2rem;display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 100px;
+}
+
+.shop2{
+  background-color: #F08246;
+  margin-bottom: 0;
 }

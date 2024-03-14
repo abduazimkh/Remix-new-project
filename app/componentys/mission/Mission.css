@@ -1,0 +1,26 @@
+.mission-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hero{
+    flex-direction: row-reverse;
+    .link-btn{
+      background-color: #1e4646;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
+  .mission-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .hero{
+      flex-direction: column-reverse;
+    }
+  
+  }
+}
